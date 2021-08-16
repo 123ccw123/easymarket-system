@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/easymarket_common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_common_db/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_gateway/easymaeket_gateway_web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service/easymarket-rabbitmq-delay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service/easymarket_canal_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service/easymarket_file_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service/easymarket_order_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service/easymarket_pay_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service/easymarket_search_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service/easymarket_search_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service/easymarket_seckill_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service/easymarket_sellersgoods_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service/easymarket_sms_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service/easymarket_user_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service_api/easymarket_order_service_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service_api/easymarket_search_service_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service_api/easymarket_seckills_service_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service_api/easymarket_sellersgoods_service_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_service_api/easymarket_user_service_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_user_oauth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymarket_web/easymarket_search_web/src/main/java" charset="UTF-8" />
+  </component>
+</project>

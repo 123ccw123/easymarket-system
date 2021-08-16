@@ -1,0 +1,4 @@
+com\ccw\TestFastDFS.class
+com\ccw\controller\UploadController.class
+com\ccw\EasymarketFileApplication.class
+com\ccw\utils\FastDFSClient.class

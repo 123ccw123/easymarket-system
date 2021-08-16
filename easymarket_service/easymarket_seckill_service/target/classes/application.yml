@@ -1,0 +1,44 @@
+server:
+  port: 9010
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.15.111:3360/easymarket?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+  rabbitmq:
+    host: 192.168.15.111 #mq的服务器地址
+    username: guest #账号
+    password: guest #密码
+  main:
+    allow-bean-definition-overriding: true
+  redis:
+    host: 192.168.15.111
+    port: 6379
+  jackson:
+    time-zone: GMT+8
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true
+#hystrix 配置
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          #如果enabled设置为false，则请求超时交给ribbon控制
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+          strategy: SEMAPHORE
+logging:
+  level:
+    com:
+      ccw: debug

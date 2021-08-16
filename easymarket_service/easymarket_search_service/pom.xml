@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>easymarket_system</artifactId>
+        <groupId>com.ccw</groupId>
+        <version>1.0</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>easymarket_search_service</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.ccw</groupId>
+            <artifactId>easymarket_search_service_api</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
+</project>

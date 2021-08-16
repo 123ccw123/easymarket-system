@@ -1,0 +1,13 @@
+server:
+  port: 8761
+spring:
+  application: eureka
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    register-with-eureka: false #是否将自己注册到Eureka中
+    fetch-registry: false #是否从Eureka中获取信息
+  server:
+    enable-self-preservation: false #关闭自我保护
+    eviction-interval-timer-in-ms: 5000 #隔5s清理一次服务列表

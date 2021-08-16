@@ -1,0 +1,56 @@
+server:
+  port: 9100
+spring:
+  application:
+    name: user-auth
+  redis:
+    host: 192.168.15.111
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.15.111:3360/dongyimaidb_user?useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true&serverTimezone=UTC
+    username: root
+    password: root
+  main:
+    allow-bean-definition-overriding: true
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+auth:
+  ttl: 3600 #token存储到redis的过期时间
+  clientId: dongyimai
+  clientSecret: 123
+  cookieDomain: localhost
+  cookieMaxAge: -1
+encrypt:
+  key-store:
+    location: classpath:/dongyimai.jks
+    secret: dongyimai
+    alias: dongyimai
+    password: dongyimai
+feign:
+  hystrix:
+    enabled: true
+#超时配置
+ribbon:
+  ReadTimeout: 3000000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 100000

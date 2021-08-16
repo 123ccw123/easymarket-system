@@ -1,0 +1,12 @@
+com\ccw\sellersgoods\group\SpecEntity.class
+com\ccw\sellersgoods\pojo\Brand.class
+com\ccw\sellersgoods\pojo\SpecificationOption.class
+com\ccw\sellersgoods\feign\ItemFeign.class
+com\ccw\sellersgoods\pojo\Specification.class
+com\ccw\sellersgoods\pojo\Goods.class
+com\ccw\sellersgoods\pojo\ItemCat.class
+com\ccw\sellersgoods\group\GoodsEntity.class
+com\ccw\sellersgoods\pojo\Item.class
+com\ccw\sellersgoods\pojo\Seller.class
+com\ccw\sellersgoods\pojo\GoodsDesc.class
+com\ccw\sellersgoods\pojo\TypeTemplate.class

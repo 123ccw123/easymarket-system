@@ -1,0 +1,6 @@
+com\ccw\user\pojo\Provinces.class
+com\ccw\user\pojo\User.class
+com\ccw\user\pojo\Address.class
+com\ccw\user\pojo\Areas.class
+com\ccw\user\feign\UserFeign.class
+com\ccw\user\pojo\Cities.class

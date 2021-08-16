@@ -1,0 +1,5 @@
+com\ccw\pay\PayApplication.class
+com\ccw\pay\service\ipml\AliPayServiceImpl.class
+com\ccw\pay\service\AliPayService.class
+com\ccw\pay\config\AliPay.class
+com\ccw\pay\controller\AlipayController.class

@@ -1,0 +1,48 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: sellersgoods
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.15.111:3360/easymarket?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    minIdle: 5 #最小连接池数量
+    maxActive: 20 #最大连接池数量
+    maxWait: 6000 #获取连接最大等待时间
+  redis:
+    port: 6379
+    host: 192.168.15.111
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 5 # 每隔5秒发送一次心跳
+    lease-expiration-duration-in-seconds: 10 # 10秒不发送就过期
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port}
+feign:
+  hystrix:
+    enabled: true
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true #开启驼峰式编写规范
+  type-aliases-package: com.ccw.sellersgoods.pojo
+# 配置sql打印日志
+logging:
+  level:
+    com:
+      offcn: debug
+#hystrix 配置
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+          strategy: SEMAPHORE    #使用Seamphore，你创建了多少线程，实际就会有多少线程进行执行，只是可同时执行的线程数量会受到限制

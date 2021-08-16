@@ -1,0 +1,27 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: search
+  elasticsearch:
+    rest:
+      uris: 192.168.15.111:9200 #此处配置elasticsearch的访问地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true
+#超时配置
+ribbon:
+  ReadTimeout: 3000000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 100000

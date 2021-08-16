@@ -1,0 +1,5 @@
+com\ccw\order\group\Cart.class
+com\ccw\order\pojo\OrderItem.class
+com\ccw\order\pojo\PayLog.class
+com\ccw\order\pojo\Order.class
+com\ccw\order\feign\OrderFeign.class

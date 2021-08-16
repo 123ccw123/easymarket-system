@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/easymarket_gateway/easymaeket_gateway_web/easymaeket_gateway_web.iml" filepath="$PROJECT_DIR$/easymarket_gateway/easymaeket_gateway_web/easymaeket_gateway_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service/easymarket-rabbitmq-delay/easymarket-rabbitmq-delay.iml" filepath="$PROJECT_DIR$/easymarket_service/easymarket-rabbitmq-delay/easymarket-rabbitmq-delay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service/easymarket_canal_service/easymarket_canal_service.iml" filepath="$PROJECT_DIR$/easymarket_service/easymarket_canal_service/easymarket_canal_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_common/easymarket_common.iml" filepath="$PROJECT_DIR$/easymarket_common/easymarket_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_common_db/easymarket_common_db.iml" filepath="$PROJECT_DIR$/easymarket_common_db/easymarket_common_db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_eureka/easymarket_eureka.iml" filepath="$PROJECT_DIR$/easymarket_eureka/easymarket_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service/easymarket_file_service/easymarket_file_service.iml" filepath="$PROJECT_DIR$/easymarket_service/easymarket_file_service/easymarket_file_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_gateway/easymarket_gateway.iml" filepath="$PROJECT_DIR$/easymarket_gateway/easymarket_gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service/easymarket_order_service/easymarket_order_service.iml" filepath="$PROJECT_DIR$/easymarket_service/easymarket_order_service/easymarket_order_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service_api/easymarket_order_service_api/easymarket_order_service_api.iml" filepath="$PROJECT_DIR$/easymarket_service_api/easymarket_order_service_api/easymarket_order_service_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service/easymarket_pay_service/easymarket_pay_service.iml" filepath="$PROJECT_DIR$/easymarket_service/easymarket_pay_service/easymarket_pay_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service/easymarket_search_service/easymarket_search_service.iml" filepath="$PROJECT_DIR$/easymarket_service/easymarket_search_service/easymarket_search_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service_api/easymarket_search_service_api/easymarket_search_service_api.iml" filepath="$PROJECT_DIR$/easymarket_service_api/easymarket_search_service_api/easymarket_search_service_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_web/easymarket_search_web/easymarket_search_web.iml" filepath="$PROJECT_DIR$/easymarket_web/easymarket_search_web/easymarket_search_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service/easymarket_seckill_service/easymarket_seckill_service.iml" filepath="$PROJECT_DIR$/easymarket_service/easymarket_seckill_service/easymarket_seckill_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service_api/easymarket_seckills_service_api/easymarket_seckills_service_api.iml" filepath="$PROJECT_DIR$/easymarket_service_api/easymarket_seckills_service_api/easymarket_seckills_service_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service/easymarket_sellersgoods_service/easymarket_sellersgoods_service.iml" filepath="$PROJECT_DIR$/easymarket_service/easymarket_sellersgoods_service/easymarket_sellersgoods_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service_api/easymarket_sellersgoods_service_api/easymarket_sellersgoods_service_api.iml" filepath="$PROJECT_DIR$/easymarket_service_api/easymarket_sellersgoods_service_api/easymarket_sellersgoods_service_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service/easymarket_service.iml" filepath="$PROJECT_DIR$/easymarket_service/easymarket_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service_api/easymarket_service_api.iml" filepath="$PROJECT_DIR$/easymarket_service_api/easymarket_service_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service/easymarket_sms_service/easymarket_sms_service.iml" filepath="$PROJECT_DIR$/easymarket_service/easymarket_sms_service/easymarket_sms_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_system.iml" filepath="$PROJECT_DIR$/easymarket_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_user_oauth/easymarket_user_oauth.iml" filepath="$PROJECT_DIR$/easymarket_user_oauth/easymarket_user_oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service/easymarket_user_service/easymarket_user_service.iml" filepath="$PROJECT_DIR$/easymarket_service/easymarket_user_service/easymarket_user_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_service_api/easymarket_user_service_api/easymarket_user_service_api.iml" filepath="$PROJECT_DIR$/easymarket_service_api/easymarket_user_service_api/easymarket_user_service_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easymarket_web/easymarket_web.iml" filepath="$PROJECT_DIR$/easymarket_web/easymarket_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/portal_web/portal_web.iml" filepath="$PROJECT_DIR$/portal_web/portal_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-response/quick-response.iml" filepath="$PROJECT_DIR$/quick-response/quick-response.iml" />
+    </modules>
+  </component>
+</project>

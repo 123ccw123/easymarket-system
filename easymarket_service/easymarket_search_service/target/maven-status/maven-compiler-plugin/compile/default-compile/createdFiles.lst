@@ -1,0 +1,5 @@
+com\ccw\search\controller\SkuEsController.class
+com\ccw\SearchApplication.class
+com\ccw\search\service\impl\SkuEsServiceImpl.class
+com\ccw\search\service\SkuEsService.class
+com\ccw\search\dao\SkuEsMapper.class

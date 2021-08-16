@@ -1,0 +1,11 @@
+server:
+  port: 9011
+spring:
+  application:
+    name: springboot-demo
+  rabbitmq:
+    host: 192.168.188.128
+    port: 5672
+    password: guest
+    username: guest
+
